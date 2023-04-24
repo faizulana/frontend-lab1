@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Comfortaa';
+    margin: 0;
+    background-color: #d6e1fd;
+    font-weight: 400;
+  }
+  
+  .header {
+    font-family: 'Comfortaa';
+    background-color: #cc14cc;
+    padding: 30px 40px;
+    color: rgb(8, 4, 4);
+    text-align: center;
+  }
+
+  .app {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    min-width: 750px;
+    padding: 45px;
+  }
+  
+  
+  .todo {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .todo__day {
+    background: #FBFAFF;
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #E7EBFB;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 40px;
+    min-width: 150px;
+  }
+  
+  .todo__comment {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 25px;
+  }
+  
+  .todo__delete {
+    margin-left: auto;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  .todo__delete:hover {
+    background: #EFF2FF;
+  }
+  
+  .checkbox {
+    position: absolute;
+    right: 400px;
+  }
+
+  input {
+    background: #FFFFFF;
+    border: 1px solid #E7EBFB;
+    border-radius: 9px;
+    padding: 12px 20px;
+    font-family: 'Comfortaa';
+    flex: 1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  input::placeholder {
+    color: #8899A8;
+  }
+  
+  input.error {
+    border: 1px solid red;
+  }
+  
+  .todo__form {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 0px 10px 0 25px ;
+    position: relative;
+  }
+  
+  .input_icon {
+    padding-left: 45px;
+  }
+  
+  .input__icon {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+  }
+  
+  .button {
+    background: #EDECFE;
+    border-radius: 9px;
+    border: none;
+    font-size: 13px;
+    line-height: 14px;
+    color: #5051F9;
+    padding: 14px 30px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background: #dcdaff;
+  }
+  
+  
